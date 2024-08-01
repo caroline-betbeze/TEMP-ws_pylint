@@ -1,3 +1,5 @@
+"Blablablabla this is docstring"
+
 def square(x):
     """
     Square function.

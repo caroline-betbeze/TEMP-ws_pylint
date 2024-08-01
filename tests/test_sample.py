@@ -19,7 +19,7 @@ def test_pandas(x):
     @param x: Numerical value
     @return: Square x
     """
-    y = square(X)
+    y = square(x)
     assert y >= 0
     df = pd.DataFrame({'x': [x], 'y': [y]})
     return df

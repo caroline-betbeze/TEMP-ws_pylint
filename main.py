@@ -1,6 +1,9 @@
-def MAIN():
-  print('toto')
-  return
+def square(x):
+    """
+    Square function
+    """
+    return x**2
 
 if __name__ == '__main__':
-    MAIN()
+    x = 7
+    square(x)

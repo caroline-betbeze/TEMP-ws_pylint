@@ -1,5 +1,7 @@
 "Blablabla mon module"
 
+import pandas as pd
+
 def square(x):
     """
     Square function.
